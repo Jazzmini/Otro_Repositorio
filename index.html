@@ -1,0 +1,337 @@
+<!--Especifica que estamos trabajando un documento html-->
+<!DOCTYPE html>
+<!--Especifica el lenguaje con el cual trabajaremos en el documento-->
+<html lang="en">
+    <!--Especificamos las rutas de los archivos externos de nuestro proyecto web-->
+<head>
+    <!--Especifica que nuestro documento permita documentos especiales com la ñ, tildes, arrobas, etc..-->
+    <meta charset="UTF-8">
+    <!--especificamos que nuestro documento se visualice en disferentes dispositivos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Le da el titulo a la pagina (Pestaña navegador)-->
+    <title>Ark survival</title>
+    <!--Enlace URL para trabajar los iconos de Boxicon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Css/estilo.css">
+    </head>
+    <!--body especifica el contenido del sitio web-->
+<body>
+    <!--Class se pueden bautizar con el nombre que uno quiera, le da personalizacion a la etiqueta, es un alias-->
+    <header class="hero">
+    <nav class="nav__hero">
+    <!--navegacion del encabezado-->
+    <div class="nav__container">
+    <div class="logo">
+        <h2 class="logo__name">Ark survival<span class="point">.</span></h2>
+    </div>
+        <!--Enlaces de navegación-->
+        <div class="links">
+        <a href="#inicio" class="link">Inicio</a>
+        <a href="#comunidad" class="link">Mejores Dinos</a>
+        <a href="#descubrir" class="link">Dinos farmeo</a>
+        <a href="#novedades" class="link">Novedades</a>
+        <a href="#contactenos" class="link link--active">Contactenos</a> 
+        </div>
+    </div>
+    </nav>
+    <!--Seccion principal del encabezado-->
+    <section class="hero__main" id="inicio">
+           <!--Texto y contenidos destacados-->
+           <div class="hero__textos">
+            <!--span ayuda a resaltar una palabra en especifico-->
+            <h1 class="title">Descubre <span class="title--active">Ark.</span></h1>
+            <p class="copy">Ark: Survival Evolved es un videojuego de acción-aventura y supervivencia tendras que luchar para no morir congelado o de hambre, y mientras tanto utiliza tus
+                  habilidades y tu astucia para matar o domesticar y montar la plétora de dinosaurios y otras criaturas primitivas que
+                   habitan en esta tierra extraña. Caza, recolecta recursos, crea objetos, cultiva, investiga tecnologías y construye
+                    refugios para soportar el clima y almacenar objetos de valor, todo mientras formas equipo con (o contra) cientos de
+                     otros jugadores para sobrevivir, dominar, saber más 
+                del lugar...<span class="copy__active">¡y escapar de él!</span></p>
+            <a href="#" class="cta">¡Click para jugar!</a>
+           </div>
+           <!--Imagen del encabezado-->
+           <img src="img/ark-survival-evolved-png-2.png" class="ark_p">
+</section>
+</header>
+        <i class='bx bxs-heart bx-border'></i>
+        <!--Contenido principal-->
+        <main>
+<section class="Services" id="comunidad">
+    <div class="container">
+        <h2 class="Subtitle">Mejores dinos <span class="point"> Ark</span></h2>
+        <p class="copy__section">Cuidado con estos peligrosos dinosaurios</p>
+    </div>
+    <!--Especifica que creara un contenedor para los articulos de los servicios-->
+    <article class="container-cards">
+        <div class="card">
+            <img src="img/ark-dinosaurs-therizinosaur.jpg" class="card__img">
+            <div class="cards__text">
+                <p class="card__list"></p>
+                <h3 class="card__title">Tericino<span class="point">.</span></h3>
+                <p class="card__copy">Apodado el "mata Rex", el Tericinosaurio es un dinosaurio de temperamento territorial 
+                    (si te acercas a el te atacará). También es uno de los herbívoros más fuertes que te puedes encontrar.</p>
+                    <a class="card_button">Mutaciones Tericino</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/giganotosaurus-ark-survival-evolved-cke.jpg" class="card__img">
+            <div class="cards__text">
+                <p class="card__list"></p>
+                <h3 class="card__title">Giganotosaurio<span class="point">.</span></h3>
+                <p class="card__copy">Los giganotosaurios pasearán 'casualmente' por la isla, matando cualquier cosa a su paso.
+                     Esto puede llevarlos a deambular por cualquier lugar y se conviertan en una gran amenaza si te los encuentras. 
+                     Debido a su mecánica de rabia, se enojarán más cuando sea atacado, provocando que sus ataques inflijan todavía más daño.</p>
+                    <a class="card_button">Mutaciones Giganotosaurio</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/383d84503940403579e7f42d0fd0289c.jpg" class="card__img">
+            <div class="cards__text">
+                <p class="card__list"></p>
+                <h3 class="card__title">Espinosaurio<span class="point">.</span></h3>
+                <p class="card__copy">El Espinosaurio es un animal capaz de combatir en todas las superficies. Este animal,
+                     dispone de una gran agilidad sobre tierra, lo que le ayuda a matar cualquier enemigo gracias a sus poderosos ataques.</p>
+                    <a class="card_button">Mutaciones Espinosaurio</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/png-transparent-titanosaurus-ark-redwood-biome-brontosaurus-dinosaur-creatures-tyrannosaurus-video-game-sauropoda.png" class="card__img">
+            <div class="cards__text">
+                <p class="card__list"></p>
+                <h3 class="card__title">Titanosaurio<span class="point">.</span></h3>
+                <p class="card__copy">Esta criatura es bastante pacífica, y te preguntarás ¿entonces? Pues lo es, mientras no sea atacado. 
+                    Si es atacado, comenzará a atacarte y se convertirá en un enemigo temible y mortal. Incluso, como defensa propia, 
+                    matará a otros herbívoros en la naturaleza si se cruzan por su camino.</p>
+                    <a class="card_button">Mutaciones Espinosaurio</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/_ark_se__megalodon_by_phelcer_d9v7u7u-pre.jpg" class="card__img">
+            <div class="cards__text">
+                <p class="card__list"></p>
+                <h3 class="card__title">Megalodon<span class="point">.</span></h3>
+                <p class="card__copy">es ligeramente agresivo. Esto quiere decir que cuando estas a una cierta distancia, no corres
+                     ningún tipo de riesgo de que seas atacado por él. Sin embargo, cuando estas a una distancia menor de 15 metros 
+                     aproximadamente, este animal dirigirá toda su atención hacia ti, y en el caso de que haya más Megalodones en las 
+                     cercanías, también irán a por ti.</p>
+                    <a class="card_button">Mutaciones Megalodon</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/ark-dinosaurs-therizinosaur.jpg" class="card__img">
+            <div class="cards__text">
+                <p class="card__list"></p>
+                <h3 class="card__title">Tericino<span class="point">.</span></h3>
+                <p class="card__copy">Apodado el "mata Rex", el Tericinosaurio es un dinosaurio de temperamento territorial 
+                    (si te acercas a el te atacará). También es uno de los herbívoros más fuertes que te puedes encontrar.</p>
+                    <a class="card_button">Mutaciones Tericino</a>
+            </div>
+        </div>
+    </article>
+</section>
+<!--Especifica la informacion de nuestros proyectos-->
+<section class="project container" id="descubrir">
+    <h2 class="Subtitle">Mejores dinos de farmeo<span class="point">.</span></h2>
+    <p class="copy__section modifier">Algunos de los mejores dinos en Ark Survival Evolved para recoger recursos</p>
+    <article class="container-bg">
+        <div class="card">
+            <div class="cards__text">
+        <h3 class="card__title">Dinos para farmeo de  <span class="point"> bayas</span></h3>
+        <p class="card__date">24 de Agosto 2023</p> 
+        <p class="card__copy">En Ark: Survival Evolved necesitarás obtener muchos recursos por diferentes motivos,
+             ya sea construir tu base, como bien os explicamos en la guía de construcción, crear armas, armaduras
+              o diferentes objetos que te sirvan dentro de la isla. .</p>   
+             <a href="#" class="card_button">Conoce otro Dinos de farmeo</a>
+        </div>
+        </div>
+        <div class="background">
+            <img src="img/maxresdefault.jpg" class="background__img">
+            <div class="background__text">
+                <h3 class="background__title">la educacion en linea</h3>
+                <p class="backgrounf__copy">La realidad aumentada transformara por completo la educación</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cards__text">
+        <h3 class="card__title">Dinos para farmeo de metal<span class="point">.</span></h3>
+        <p class="card__date">24 de Agosto 2023</p> 
+        <p class="card__copy">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia fugit harum eius explicabo, 
+            perspiciatis tempora iusto at obcaecati quas nesciunt, dolor sequi asperiores, fugiat sit nemo voluptatem inventore
+             delectus laboriosam.</p>   
+             <a href="#" class="card_button">Conoce otros dinos de farmeo</a>
+        </div>
+        </div>
+        <div class="background">
+            <img src="img/maxresdefault (1).jpg" class="background__img">
+            <div class="background__text">
+                <h3 class="background__title">la educacion en linea</h3>
+                <p class="backgrounf__copy">La realidad aumentada transformara por completo la educación</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cards__text">
+        <h3 class="card__title">Dinos para farmeo de carne<span class="point">.</span></h3>
+        <p class="card__date">24 de Agosto 2023</p> 
+        <p class="card__copy">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia fugit harum eius explicabo, 
+            perspiciatis tempora iusto at obcaecati quas nesciunt, dolor sequi asperiores, fugiat sit nemo voluptatem inventore
+             delectus laboriosam.</p>   
+             <a href="#" class="card_button">Conoce otros dinos de farmeo</a>
+        </div>
+        </div>
+        <div class="background">
+            <img src="img/04zu7j5jl3w51.png" class="background__img">
+            <div class="background__text">
+                <h3 class="background__title">la educacion en linea</h3>
+                <p class="backgrounf__copy">La realidad aumentada transformara por completo la educación</p>
+            </div>
+        </div>
+    </article>
+    </section>
+    <!--Especifica la info de la seccion de testimonios-->
+    <section class="testimony" id="novedades">
+        <div class="container">
+            <h2 class="Subtitle">Novedades contenidos de ARK<span class="point">.</span></h2>
+            <p class="copy__section">ARK: The Animated Series es una serie que cuenta la historia de Helena Walker y cómo aprendió
+                 a sobrevivir tras despertar en un ARK, cuyo lanzamiento se espera que sea a lo largo de 2022.</p>
+            <div class="testimony-container">
+                <div class="testimony__card">
+                    <img src="img/descarga (4).jpg" class="testimony__img">
+                    <div class="testimony__copy">
+                        <i class='bx bxs-invader testimony__logo'></i>
+                        <div class="testimony__info">
+                            <h3 class="testimony__name">Genesis 2</h3>
+                            <p class="testimony__position"> Este juego es una extensión de ark,en el que hay nuevas criaturas para 
+                                adiestrar y también está con tigo el robot de ark genesis, Al inicio estás en una nabe espacial con 
+                                una criatura rara que tiene muchos ojos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimony__card">
+                    <img src="img/descarga (2).jpg" class="testimony__img">
+                    <div class="testimony__copy">
+                        <i class='bx bx-ghost testimony__logo' ></i>                        <div class="testimony__info">
+                            <h3 class="testimony__name">Extinction</h3>
+                            <p class="testimony__position">Extinción situa a los supervivientes en un mundo infestado de Elemento, 
+                                devastado lleno de criaturas fantásticas tanto orgánicas como tecnológicas. La Tierra guarda los secretos
+                                del pasado y las claves de su salvación.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimony__card">
+                    <div class="testimony__text">
+                        <img src="#">
+                        <p class="testimony__history">"ARK 2 es un sandbox de supervivencia y secuela de ARK: Survival EvolvedS, 
+                            cuyo lanzamiento al mercado se espera que sea a lo largo de 2022. </p>
+                    <div class="testimony_copy testimony--modifier">
+                        <img src="img/descarga (1).jpg" class="testimony__logo logo--picture">
+                        <div class="testimony__info">
+                            <h3 class="testimony__name">Aberration</h3>
+                            <p class="testimony__position"> coloca a los sobrevivientes en un ARK dañado: su atmósfera interna se ha filtrado, dando como resultado una superficie dura con radiación intensa y una plétora de biomas exuberantes bajo tierra.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Especificamos un nuevo contenedor que muestres los proyectos realizados-->
+    <section class="container container--modifier" id="contactenos">
+        <h2 class="subtitle--modifier">Somos tu mejor opción para adoptar la transformación digital<span class="point">.</span></h2>
+        <p class="copy__section--modifier">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, et dolore id necessitatibus 
+            quibusdam rem accusamus fugiat doloremque voluptatibus eius!</p>
+
+        <div class="check">
+            <div class="check__item">
+                <i class='bx bx-check' ></i>
+                <div class="check__numbers">
+                    <p class="check__number">+200</p>
+                    <p class="check__copy">Proyectos exitosos</p>
+                </div>
+            </div>
+            <div class="check__item">
+                <i class='bx bx-check' ></i>
+                <div class="check__numbers">
+                    <p class="check__number">+200</p>
+                    <p class="check__copy">Proyectos exitosos</p>
+                </div>
+            </div>
+            <div class="check__item">
+                <i class='bx bx-check' ></i>
+                <div class="check__numbers">
+                    <p class="check__number">+200</p>
+                    <p class="check__copy">Proyectos exitosos</p>
+                </div>
+            </div>
+        </div>
+        <!--Para que el usuario digite el email se usa form-->
+        <form class="newsletter">
+            <input type="text" class="newsletter__input" placeholder="Ingresa tu email">
+            <!--Clickea el usuario-->
+            <input type="submit" class="newsletter__submit" value="Comienza hoy">
+        </form>
+    </section>
+</main>
+<!--pie de pagina para descargar la app-->
+<footer class="footer">
+    <div class="container footer__caption">
+        <section class="download">
+            <h3 class="title__footer">Descarga nuestra App</h3>
+            <div class="download__app">
+                <div class="download__item">
+                    <i class='bx bxl-apple download__logo' ></i>
+                    <h4 class="download__title">App Store</h4>
+                </div>
+                <div class="download__item">
+                    <i class='bx bxl-play-store download__logo' ></i>
+                    <h4 class="download__title">Play Store</h4>
+                </div>
+            </div>
+            <div class="footer__copy">
+                <p class="copyright">AlexCG &copy; 2020 Todos los derechos reservados</p>
+            <!--Enlaces de navegación-->
+                <a href="#" class="politica__privacidad politica__privacidad--margin">Politica de privacidad</a>
+                <a href="#" class="politica__privacidad ">Terminos y condiciones</a>
+            </div>
+        </section>
+        <section class="get-email">
+            <h3 class="title__footer">¿Estás listo para trabajar con nosotros?</h3>
+            <!--Formulario de digitación-->
+            <form class="newsletter newsletter--modifier">
+                <input type="text" class="newsletter__input" placeholder="Ingresa tu email">
+                <!--Clickea Tipo boton-->
+                <input type="submit" class="newsletter__submit" value="Comienza hoy">
+            </form>
+            <!--Iconos para seguir en las siguientes redes-->
+            <div class="socialmedia">
+                <p class="socialmedia__legend">Siguenos en:</p>
+                <i class='socialmedia__icon bx bxl-facebook-circle'></i>
+                <i class='socialmedia__icon bx bxl-linkedin-square'></i>                                                                                                        
+                <i class='socialmedia__icon bx bxl-twitter' ></i>   
+                <i class='socialmedia__icon bx bxl-instagram' ></i>
+                <i class='socialmedia__icon bx bxl-github' ></i>  
+            </div>
+        </section>
+    </div>
+<!--Redes de información-->
+    <div class="contact">
+        <div class="item__contact">
+            <i class='bx bx-copyright contact__icon' ></i>
+            <h3 class="contact__title">Jazz Design</h3>
+        </div>
+        <div class="item__contact">
+            <i class='bx bx-mail-send contact__icon' ></i>
+            <h3 class="contact__title">hola@Jazzdesign</h3>
+        </div>
+        <div class="item__contact">
+            <i class='bx bxs-edit-location contact__icon' ></i>
+            <h3 class="contact__title">Paseos de la reforma</h3>
+        </div>
+        <div class="item__contact item__contact--gold">
+            <i class='bx bxs-chat contact__icon contact__icon--modifier' ></i>
+            <h3 class="contact__title">Contactanos ahora</h3>
+        </div>
+    </div>
+    <script src="#"></script>
+</footer>
+        </main>
+</body>
+</html>
